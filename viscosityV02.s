@@ -5,6 +5,9 @@
 .global _start
 
 _start:
+    call acumula_pasos  ! Llamar a la función principal
+    nop
+
 suma_vect:
     retl
     nop
